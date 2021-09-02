@@ -4,29 +4,24 @@
         <!--Meta data-->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <title>IMD Repeat</title>
     </head>
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
         <!--Navbar-->
-        <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #8ab2ce;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class = "container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                    </button>
                     <a class="navbar-brand" href="#">IMD</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#overview">Overview</a></li>
-                        <li><a href="#analysis">Analysis</a></li>
-                        <li><a href="#visualisations">Visualisations</a></li>
-                        <li><a href="#conclusions">Conclusions</a></li>
+                    <ul class="navbar-nav">
+                        <li  class="nav-item"><a class="nav-link active" aria-current="page" href="#overview">Overview</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#analysis">Analysis</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#visualisations">Visualisations</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#conclusions">Conclusions</a></li>
                     </ul>
                 </div>    
             </div>
@@ -43,29 +38,12 @@
                             </p>
                             <h1 id = "analysis">Analysis</h1>
                             <div class = "generic-content">
-                                <H3>Department of Employment Affairs and Social Protection</H3>
+                                <H3>Discoveries on this topic</H3>
                                 <ul class="list-group">
-                                   <li class="list-group-item"><a href="#analysisModal1" class="link-info">Info link</a></li>
-                                   <div class="modal fade" id="analysisModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Modal tle</h5>
-                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                          ...
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                          <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                   <li class="list-group-item">Role: Temporary Executive Officer</li>
-                                   <li class="list-group-item">Location: Gandon House, 1 Amiens St, Mountjoy, Dublin</li>
-                                   <li class="list-group-item">Main Responsibilities: Software Development, Functionality Testing and UX testing</li>
+                                   <li class="list-group-item"><a href="#anModal1" data-bs-toggle="modal" data-bs-target="#anModal1">Critic and Consumer consensus relatively similar</a> </li>
+                                   <li class="list-group-item"><a href="#anModal2" data-bs-toggle="modal" data-bs-target="#anModal2">Global sales are trending downward</a> </li>
+                                   <li class="list-group-item"><a href="#anModal3" data-bs-toggle="modal" data-bs-target="#anModal3">Large gap between consumer and critic consensus on Miscellaneous genre games when measuring by mean</a> </li>
+                                   <li class="list-group-item"><a href="#anModal4" data-bs-toggle="modal" data-bs-target="#anModal4">The Sports genre remains the most well approved genre with both measures</a> </li>
                                 </ul>
                             </div> 
                             <h1 id = "visualisations">Visualisations</h1>
@@ -78,22 +56,75 @@
                                          <script type='text/javascript'>                    var divElement = document.getElementById('viz1630524172890');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1000px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='850px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                             </div>
                             <h1 id = "conclusions">Conclusions</h1>
-                            <div class = "generic-content">
-                                <h3>Sporting</h3>
-                                <p>Brown belt in Kenpo Karate 3rd degree and trained in Mixed Martial Arts involving Brazilian Jiu Jitsu, Muay Thai, Boxing and Wrestling</p>
+                             <p>From studying this topic, I have come to be surprised by the results. I had started this project with the belief that I would find a large rift between consumer and critic opinion. This may be down to my own bias after following controversies that split both consumer and critic opinion. From the data shown, these controversies do not represent the industry at a macro scale.</p>
+                             <p>I also question the accuracy of the game sales figures as I theorize that the decline in sales globally shown through these statistics is inaccurate as I suspect that digital sales are not taken into account. The sheer drop off in the North American and European region's sales does not seem to reflect reality as the industry is going from strength to strength. </p>
+                            <!--Modals-->
+                            <div class="modal fade" id="anModal1" tabindex="-1" aria-labelledby="analysisModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="modalLabel">Critic and Consumer consensus relatively similar</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Through analysis of each video game genre, it was found that consumer and critic rating of game titles remains overly consistent with each other.
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class = "generic-content">
-                                <h3>Achievements</h3>
-                                <p>Certificate of Excellence received upon leaving the Department of Employment Affairs and Social Protection</p>
-                            </div> 
-                            <div class = "generic-content">
-                                <h3>Posts of Responsibility</h3>
-                                <p>Volunteer in Kenpo Karate for over 8 years teaching children aged 6 - 16.</p>
+                            <div class="modal fade" id="anModal2" tabindex="-1" aria-labelledby="analysisModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="modalLabel">Global sales are trending downward</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                           Sales in each region studied have been trending downward. This may be caused by these statistics only tracking physical sales of game copies while the industry moves towards digital sales.
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class = "generic-content">
-                                <h3>Hobbies</h3>
-                                <p>Creative writing both competitive and non-competitive, lino printing, sketching and Martial Arts.</p>
-                            </div>       
+                            <div class="modal fade" id="anModal3" tabindex="-1" aria-labelledby="analysisModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="modalLabel">Large gap between consumer and critic consensus on Miscellaneous genre games when measuring by mean</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                           This may be due to games in this category varying in quality and themes that may resonate with the consumer but impress critics less so and vice versa. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="anModal4" tabindex="-1" aria-labelledby="analysisModal" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="modalLabel">The Sports genre remains the most well approved genre with both measures</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                           Sports genre titles tend to retain consistency over iterations with the main areas of improvement coming from graphical fidelity. This tends not to be as polarizing. 
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End of Modals -->
+
                         </div>
                     </div>
                 </div>
@@ -101,3 +132,4 @@
         </div> 
     </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
